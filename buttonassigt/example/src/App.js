@@ -1,10 +1,19 @@
 import React from 'react'
 
-import { ExampleComponent } from 'buttonassigt'
+import { ExampleComponent, Button } from 'buttonassigt'
 import 'buttonassigt/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+
+      <Button text='click' />
+    </>
+  )
+
+
+
+
 }
 
 export default App
