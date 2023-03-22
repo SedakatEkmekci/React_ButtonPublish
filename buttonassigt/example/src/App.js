@@ -1,13 +1,20 @@
-import React from 'react'
-
+import React, { useState } from 'react'
 import { Button } from 'buttonassigt'
 import 'buttonassigt/dist/index.css'
 
 const App = () => {
+
   return (
     <>
 
-      <Button text='click' onClick={() => alert('button is avaliable')} />
+      <Button text='primary' />
+      <Button text='default' />
+      <Button text='dashed' />
+      <br />
+      <Button text='link' />
+      <Button text='text' />
+
+
     </>
   )
 
